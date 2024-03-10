@@ -1,0 +1,82 @@
+{
+    "test-groups": [
+        {
+            "name": "Data Set Classification System",
+            "folder": "tests",
+            "expected-file": "./data-set-classification-system/",
+            "tests": [
+                {
+                    "name": "test_load1",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "test_load2",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-10
+                },
+                {
+                    "name": "test_split1",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-10
+                },
+                {
+                    "name": "test_split2",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-10
+                },
+                {
+                    "name": "test_initialize1",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1.0
+                },
+                {
+                    "name": "test_initialize2",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 0.5
+                },
+                {
+                    "name": "test_initialize3",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 0.26
+                },
+                {
+                    "name": "test_cost1",
+                    "test-score": 3,
+                    "test-type": "approx",
+                    "max-error": 1e-5
+                },
+                {
+                    "name": "test_cost2",
+                    "test-score": 3,
+                    "test-type": "approx",
+                    "max-error": 1e-5
+                },
+                {
+                    "name": "test_cost3",
+                    "test-score": 3,
+                    "test-type": "approx",
+                    "max-error": 1e-5
+                },
+                {
+                    "name": "test_predict1",
+                    "test-score": 10,
+                    "test-type": "approx",
+                    "max-error": 0.3
+                },
+                {
+                    "name": "test_predict2",
+                    "test-score": 10,
+                    "test-type": "approx",
+                    "max-error": 0.3
+                }
+            ]
+        }
+    ]
+}
